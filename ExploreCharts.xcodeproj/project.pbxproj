@@ -14,6 +14,7 @@
 		6DD9AE1C2AD7C62700E2578C /* ExploreChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9AE1B2AD7C62700E2578C /* ExploreChartsTests.swift */; };
 		6DD9AE262AD7C62700E2578C /* ExploreChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9AE252AD7C62700E2578C /* ExploreChartsUITests.swift */; };
 		6DD9AE282AD7C62700E2578C /* ExploreChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9AE272AD7C62700E2578C /* ExploreChartsUITestsLaunchTests.swift */; };
+		6DD9AE3B2AD7CA3300E2578C /* StaticChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9AE3A2AD7CA3300E2578C /* StaticChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6DD9AE212AD7C62700E2578C /* ExploreChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD9AE252AD7C62700E2578C /* ExploreChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreChartsUITests.swift; sourceTree = "<group>"; };
 		6DD9AE272AD7C62700E2578C /* ExploreChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DD9AE3A2AD7CA3300E2578C /* StaticChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,10 @@
 		6DD9AE092AD7C62100E2578C /* ExploreCharts */ = {
 			isa = PBXGroup;
 			children = (
+				6DD9AE372AD7C99500E2578C /* source */,
+				6DD9AE362AD7C96900E2578C /* model */,
+				6DD9AE352AD7C96100E2578C /* view */,
+				6DD9AE342AD7C95600E2578C /* view model */,
 				6DD9AE0A2AD7C62100E2578C /* ExploreChartsApp.swift */,
 				6DD9AE0C2AD7C62100E2578C /* ContentView.swift */,
 				6DD9AE0E2AD7C62600E2578C /* Assets.xcassets */,
@@ -125,6 +131,51 @@
 				6DD9AE272AD7C62700E2578C /* ExploreChartsUITestsLaunchTests.swift */,
 			);
 			path = ExploreChartsUITests;
+			sourceTree = "<group>";
+		};
+		6DD9AE342AD7C95600E2578C /* view model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		6DD9AE352AD7C96100E2578C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6DD9AE362AD7C96900E2578C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6DD9AE372AD7C99500E2578C /* source */ = {
+			isa = PBXGroup;
+			children = (
+				6DD9AE392AD7C9B900E2578C /* chart data */,
+				6DD9AE382AD7C9AE00E2578C /* chart types */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		6DD9AE382AD7C9AE00E2578C /* chart types */ = {
+			isa = PBXGroup;
+			children = (
+				6DD9AE3A2AD7CA3300E2578C /* StaticChartView.swift */,
+			);
+			path = "chart types";
+			sourceTree = "<group>";
+		};
+		6DD9AE392AD7C9B900E2578C /* chart data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "chart data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +310,7 @@
 			files = (
 				6DD9AE0D2AD7C62100E2578C /* ContentView.swift in Sources */,
 				6DD9AE0B2AD7C62100E2578C /* ExploreChartsApp.swift in Sources */,
+				6DD9AE3B2AD7CA3300E2578C /* StaticChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
