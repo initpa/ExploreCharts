@@ -6,10 +6,23 @@
 //
 
 import SwiftUI
+import Charts
 
 struct RectangleChartExampleView: View {
+    let catData = PetData.catExample
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Chart {
+            ForEach(catData) { dataPoint in
+                RectangleMark(x: .value("Year", dataPoint.year),
+                              y: .value("Population", dataPoint.population),
+                              width: .fixed(30),
+                              height: .fixed(2))
+            }
+        }
+        .chartXScale(domain: 1998...2025)
+        .aspectRatio(1, contentMode: .fit)
+        .padding()
     }
 }
 
