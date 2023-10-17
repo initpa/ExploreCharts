@@ -177,6 +177,8 @@
 		6DD9AE372AD7C99500E2578C /* source */ = {
 			isa = PBXGroup;
 			children = (
+				6DD9AE3A2AD7CA3300E2578C /* StaticChartView.swift */,
+				6DB63C2C2ADE4E3300061840 /* DynamicChartView.swift */,
 				6DD9AE392AD7C9B900E2578C /* chart data */,
 				6DD9AE382AD7C9AE00E2578C /* chart types */,
 			);
@@ -186,8 +188,6 @@
 		6DD9AE382AD7C9AE00E2578C /* chart types */ = {
 			isa = PBXGroup;
 			children = (
-				6DD9AE3A2AD7CA3300E2578C /* StaticChartView.swift */,
-				6DB63C2C2ADE4E3300061840 /* DynamicChartView.swift */,
 				6DB63C322ADE5A2500061840 /* BarChartExampleView.swift */,
 				6DB63C342ADE5A6100061840 /* LineChartExampleView.swift */,
 				6DB63C362ADE5A6C00061840 /* PieChartExampleView.swift */,
