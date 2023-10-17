@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB63C2D2ADE4E3300061840 /* DynamicChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C2C2ADE4E3300061840 /* DynamicChartView.swift */; };
+		6DB63C2F2ADE513600061840 /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C2E2ADE513600061840 /* PetData.swift */; };
+		6DB63C312ADE51C500061840 /* PetStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C302ADE51C500061840 /* PetStatsView.swift */; };
+		6DB63C332ADE5A2500061840 /* BarChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C322ADE5A2500061840 /* BarChartExampleView.swift */; };
+		6DB63C352ADE5A6100061840 /* LineChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C342ADE5A6100061840 /* LineChartExampleView.swift */; };
+		6DB63C372ADE5A6C00061840 /* PieChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C362ADE5A6C00061840 /* PieChartExampleView.swift */; };
+		6DB63C392ADE5A8900061840 /* PointChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C382ADE5A8900061840 /* PointChartExampleView.swift */; };
+		6DB63C3B2ADE5AA300061840 /* AreaChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C3A2ADE5AA300061840 /* AreaChartExampleView.swift */; };
+		6DB63C3D2ADE5ACA00061840 /* RuleChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C3C2ADE5ACA00061840 /* RuleChartExampleView.swift */; };
+		6DB63C3F2ADE5B0A00061840 /* RectangleChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB63C3E2ADE5B0A00061840 /* RectangleChartExampleView.swift */; };
 		6DD9AE0B2AD7C62100E2578C /* ExploreChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9AE0A2AD7C62100E2578C /* ExploreChartsApp.swift */; };
 		6DD9AE0D2AD7C62100E2578C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9AE0C2AD7C62100E2578C /* ContentView.swift */; };
 		6DD9AE0F2AD7C62600E2578C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD9AE0E2AD7C62600E2578C /* Assets.xcassets */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DB63C2C2ADE4E3300061840 /* DynamicChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicChartView.swift; sourceTree = "<group>"; };
+		6DB63C2E2ADE513600061840 /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
+		6DB63C302ADE51C500061840 /* PetStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatsView.swift; sourceTree = "<group>"; };
+		6DB63C322ADE5A2500061840 /* BarChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartExampleView.swift; sourceTree = "<group>"; };
+		6DB63C342ADE5A6100061840 /* LineChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartExampleView.swift; sourceTree = "<group>"; };
+		6DB63C362ADE5A6C00061840 /* PieChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartExampleView.swift; sourceTree = "<group>"; };
+		6DB63C382ADE5A8900061840 /* PointChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartExampleView.swift; sourceTree = "<group>"; };
+		6DB63C3A2ADE5AA300061840 /* AreaChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartExampleView.swift; sourceTree = "<group>"; };
+		6DB63C3C2ADE5ACA00061840 /* RuleChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleChartExampleView.swift; sourceTree = "<group>"; };
+		6DB63C3E2ADE5B0A00061840 /* RectangleChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartExampleView.swift; sourceTree = "<group>"; };
 		6DD9AE072AD7C62100E2578C /* ExploreCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD9AE0A2AD7C62100E2578C /* ExploreChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreChartsApp.swift; sourceTree = "<group>"; };
 		6DD9AE0C2AD7C62100E2578C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +187,14 @@
 			isa = PBXGroup;
 			children = (
 				6DD9AE3A2AD7CA3300E2578C /* StaticChartView.swift */,
+				6DB63C2C2ADE4E3300061840 /* DynamicChartView.swift */,
+				6DB63C322ADE5A2500061840 /* BarChartExampleView.swift */,
+				6DB63C342ADE5A6100061840 /* LineChartExampleView.swift */,
+				6DB63C362ADE5A6C00061840 /* PieChartExampleView.swift */,
+				6DB63C382ADE5A8900061840 /* PointChartExampleView.swift */,
+				6DB63C3A2ADE5AA300061840 /* AreaChartExampleView.swift */,
+				6DB63C3C2ADE5ACA00061840 /* RuleChartExampleView.swift */,
+				6DB63C3E2ADE5B0A00061840 /* RectangleChartExampleView.swift */,
 			);
 			path = "chart types";
 			sourceTree = "<group>";
@@ -174,6 +202,8 @@
 		6DD9AE392AD7C9B900E2578C /* chart data */ = {
 			isa = PBXGroup;
 			children = (
+				6DB63C2E2ADE513600061840 /* PetData.swift */,
+				6DB63C302ADE51C500061840 /* PetStatsView.swift */,
 			);
 			path = "chart data";
 			sourceTree = "<group>";
@@ -308,9 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB63C3B2ADE5AA300061840 /* AreaChartExampleView.swift in Sources */,
+				6DB63C2F2ADE513600061840 /* PetData.swift in Sources */,
 				6DD9AE0D2AD7C62100E2578C /* ContentView.swift in Sources */,
 				6DD9AE0B2AD7C62100E2578C /* ExploreChartsApp.swift in Sources */,
 				6DD9AE3B2AD7CA3300E2578C /* StaticChartView.swift in Sources */,
+				6DB63C332ADE5A2500061840 /* BarChartExampleView.swift in Sources */,
+				6DB63C392ADE5A8900061840 /* PointChartExampleView.swift in Sources */,
+				6DB63C312ADE51C500061840 /* PetStatsView.swift in Sources */,
+				6DB63C3F2ADE5B0A00061840 /* RectangleChartExampleView.swift in Sources */,
+				6DB63C352ADE5A6100061840 /* LineChartExampleView.swift in Sources */,
+				6DB63C372ADE5A6C00061840 /* PieChartExampleView.swift in Sources */,
+				6DB63C3D2ADE5ACA00061840 /* RuleChartExampleView.swift in Sources */,
+				6DB63C2D2ADE4E3300061840 /* DynamicChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
